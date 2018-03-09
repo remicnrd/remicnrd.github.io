@@ -56,8 +56,29 @@ The `_posts`directory is for all the articles. You want to publish a new blog po
 
 # Make it shine 
 
+You now have the basics of Jekyll, including Blog creation, local rendering and file browsing. Let's see how to obtain something even more pleasant to the eyes of your future readers.
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+An very interesting feature of Jekyll is the themes. A theme can change the fonts, the main page layout, the navigation menu of the blog, etc. A quick google search should help you find the perfect theme. Here are some availables at [Jekyllthemes][jekyllthemes]:
+
+![Jekyll Screenshot 3]({{site.baseurl}}/assets/img/jekyll_screenshot_3.jpg)
+
+Once you found the theme you like, check its documentation on GitHub. Sometimes it can be installed in a few seconds and two lines of codes using Gem:
+- Add `gem  YOUR_THEME_NAME` to `Gemfile``
+- Add `theme: YOUR_THEME_NAME` to `_config.yml`
+- Run `bundle` in your terminal
+
+Otherwise, you can go on the GitHub repository of the theme and clone it locally. In that case, the content of the theme will constitute your blog's base. Meaning you have to clone the repository in a new, empty folder with the following code on your terminal:
+```
+# Go to the folder you want to clone the theme in
+cd blog
+
+# Clone the git repository
+git clone https://github.com/YOUR-THEME-REPOSITORY
+```
+From here, you can do a bit of cleaning by removing the example markdown files of the articles in `_posts`, and modify the `config.yml`. I encourage you to read the configuration file and GitHub documentation entirely, as some themes provides different functionalities.
+
+
+
 
 
 
@@ -96,6 +117,7 @@ To dig deeper or if you encounter any problem during the process, you can check 
 [install-rubygems]: https://rubygems.org/pages/download
 [install-gcc]: https://gcc.gnu.org/install/
 [install-make]: https://www.gnu.org/software/make/
+[jekyllthemes]: http://jekyllthemes.org/
 [join-github]: https://github.com/join?source=header-home
 [install-git]: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 [jekyll-doc]: https://jekyllrb.com/docs/home
