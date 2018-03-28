@@ -1083,9 +1083,10 @@ pre code {
 
 .post-card {
   position: relative;
-  overflow: hidden;
-  border: .1px solid white;
+  /*overflow: hidden;*/
+  /*border: .1px solid white;*/
 }
+
 
 .post-card .post-card-image {
   display: block;
@@ -1095,14 +1096,14 @@ pre code {
   background-position: center;
   background-repeat: no-repeat;
 }
-.post-card-image {
+/*.post-card-image {
   transform:scale(1.1);
   -webkit-filter: blur(1px);
   -moz-filter: blur(1px);
   -o-filter: blur(1px);
   -ms-filter: blur(1px);
   filter: blur(1px);
-}
+}*/
 
 .post-card .post-card-image::after {
   content: "";
