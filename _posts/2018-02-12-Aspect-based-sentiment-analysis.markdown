@@ -35,7 +35,7 @@ The ABSA model could be decomposed in three distinct main processes for an *out-
 
 However, our restaurant usecase is what we call *in-domain*. That is, we already have defined the aspect categories related to the reviews. We then have a model composed of two distinct models: the Aspect Categories classifier and the Sentiment Model. 
 
-![absa-schema](absa-schema.png)
+![absa-schema](absa-schema.jpg)
 
 The training dataset is composed of 1503 reviews and their associated categories. There is 12 defined categories:
 - `AMBIENCE#GENERAL`
@@ -258,7 +258,7 @@ The Word Embedding technique we will use here is called *Bag of Words* and is ve
 
 Here is a small example:
 
-![bow-table](bow-table.png)
+![bow-table](bow-table.jpg)
 
 
 Hopefully, Keras has everything we need for this BoW word embedding.
