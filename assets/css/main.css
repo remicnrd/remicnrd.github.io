@@ -1,3 +1,31 @@
+.dataframe {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0  !important ;
+}
+
+.dataframe td, .dataframe th {
+    border: 1px solid #ddd;
+    padding: 4px;
+}
+
+.dataframe tr:nth-child(even){background-color: #f2f2f2;}
+
+.dataframe tr:hover {background-color: #ddd;}
+
+.dataframe th {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    text-align: left;
+    background-color: #ffffff00;
+    color: black;
+}
+
+
+
+
+
 .highlight {
   background-color: #faf9f9;
   -webkit-border-radius: 3px;
@@ -8,9 +36,9 @@
 .highlighter-rouge {
   color: #87314e;
   font-weight: 400;
-  border: 1px solid #607D8B;
+/*  border: 1px solid #607D8B;
   -webkit-border-radius: 3px;
-          border-radius: 3px;
+          border-radius: 3px;*/
   padding: 0.1rem 0.5rem;
 }
 
