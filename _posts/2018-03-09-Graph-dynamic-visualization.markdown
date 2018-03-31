@@ -8,7 +8,7 @@ tags: [Python, Graph Analysis, Dataviz]
 author: # Add name author (optional)
 ---
 
-My last article covered in depth [how to apply machine learning for link prediction](https://remicnrd.github.io./). It has been the occasion to play with a network dataset on a real-life usecase, but also to use the [NetworkX](https://networkx.github.io/) library.
+My last article covered in depth [how to apply machine learning for link prediction](https://remicnrd.github.io./Article-network-missing-link-prediction/). It has been the occasion to play with a network dataset on a real-life usecase, but also to use the [NetworkX](https://networkx.github.io/) library.
 
 Despite being easy to use and very complete, NetworkX seemed to me more research oriented than business oriented. For example, **the graph plotting did not appeal me very much**. Hopefully, with a bit of research and determination I found a **very nice alternative**: 
 
