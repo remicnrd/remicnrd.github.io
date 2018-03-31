@@ -4,7 +4,7 @@ title: Donor  targeting for NonProfit campaign
 date: 2018-01-21 14:12:20 +0300
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
 img: post_2.jpg # Add image post (optional)
-tags: [R, Supervised Learning, SQL, Targeting]
+tags: [R, Machine Learning, SQL, Targeting]
 author: # Add name author (optional)
 ---
 
