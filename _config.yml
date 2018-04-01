@@ -9,16 +9,16 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # Author settings
 author: Rémi Canard # add your name
 author-pic: remi-picture.jpg
-about-author: My name is Rémi Canard. I’m a Computer Science graduate engineer and also current MSc student in Data Sciences @ CentraleSupélec & Essec.
+about-author: My name is Rémi Canard. I’m a Computer Science graduate engineer and also current MSc student in Data Sciences @ CentraleSupélec & Essec. Currently looking for opportunities!
 
 # Contact links
-email: # Add your Email address
+email: remi.canard@essec.edu
 phone: # Add your Phone number
-website: # Add your website, do not add http://
-linkedin: # Add your Linkedin handle
+website: remicnrd.github.io./
+linkedin: remicanard
 github: remicnrd # Add your Github handle
 twitter: # Add your Twitter handle
-facebook: # Add your Facebook handle
+facebook: remi.canard.7
 instagram: # Add your Instagram handle
 pinterest: # Add your Pinterest handle
 
