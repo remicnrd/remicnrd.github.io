@@ -29,7 +29,7 @@ training.head(3)
 
 
 
-<div>
+<div style="overflow-x:auto;">
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -81,7 +81,7 @@ node_info.head(3)
 
 
 
-<div>
+<div style="overflow-x:auto;">
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -176,7 +176,7 @@ training_reduced.head(3)
 
 
 
-<div>
+<div style="overflow-x:auto;">
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -248,7 +248,7 @@ training_reduced.head(3)
 
 
 
-<div>
+<div style="overflow-x:auto;">
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -340,7 +340,7 @@ training_reduced.head(3)
 
 
 
-<div>
+<div style="overflow-x:auto;">
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
